@@ -80,7 +80,7 @@ jobs:
           AUTH_SYSTEM_RESULTS: "${{steps.auth_system.outputs.result}}"
         with:
           runners: "create_user,array_average,user_management,show_student_bulletin,auth_system"
-
+=======
     - name: Checkout code
       uses: actions/checkout@v4
     - name: exercice-1a

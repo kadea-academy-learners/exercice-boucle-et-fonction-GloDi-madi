@@ -494,4 +494,4 @@ jobs:
         git add feedback.md
         git commit -m "Add autograding feedback for ${{ github.sha }}" || echo "no changes to commit"
         git push origin HEAD:${{ github.ref_name }}
->>>>>>> ead09c3427652b7819e7678ec6c49c597d497b92
+      ead09c3427652b7819e7678ec6c49c597d497b92

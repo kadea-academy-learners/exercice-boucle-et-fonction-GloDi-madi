@@ -3518,7 +3518,7 @@
       "engines": {
         "node": "^12.13.0 || ^14.15.0 || >=16.0.0"
       }
-    },
+    }
     "node_modules/y18n": {
       "version": "5.0.8",
       "resolved": "https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz",

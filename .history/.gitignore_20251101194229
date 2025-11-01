@@ -1,7 +1,8 @@
 node_modules
-
-node_modules
+<<<<<<< HEAD
 
 # Temporary tamp files created by the test harness. They are generated at test time
 # and must not be committed (instructor solutions must remain private).
 tests/tamps/
+=======
+>>>>>>> ead09c3427652b7819e7678ec6c49c597d497b92

@@ -4,14 +4,23 @@ on:
     branches:
       - main
       - develop
+<<<<<<< HEAD
       - 'feat/**'
   pull_request: {}
   workflow_dispatch: {}
+=======
+      - 'feat/*'
+  pull_request: {}
+>>>>>>> ead09c3427652b7819e7678ec6c49c597d497b92
   repository_dispatch: {}
 permissions:
   checks: write
   actions: read
+<<<<<<< HEAD
   contents: read
+=======
+  contents: write
+>>>>>>> ead09c3427652b7819e7678ec6c49c597d497b92
 jobs:
   run-autograding-tests:
     runs-on: ubuntu-latest
@@ -80,7 +89,7 @@ jobs:
           AUTH_SYSTEM_RESULTS: "${{steps.auth_system.outputs.result}}"
         with:
           runners: "create_user,array_average,user_management,show_student_bulletin,auth_system"
-
+=======
     - name: Checkout code
       uses: actions/checkout@v4
     - name: exercice-1a
@@ -447,7 +456,7 @@ jobs:
         Repository: ${{ github.repository }}
         Commit: ${{ github.sha }}
         Actor: ${{ github.actor }}
-
+        
         Results:
         exercice-1a: ${{ steps.exercice-1a.outputs.result }}
         exercice-1b: ${{ steps.exercice-1b.outputs.result }}
