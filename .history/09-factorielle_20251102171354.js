@@ -20,9 +20,8 @@ function factorielle(n) {
   }
 
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
-  return 0;
-
+  return 0; 
 }
-console.log(factorielle(5));  
+
 // Ne pas modifier la ligne ci-dessous
 module.exports = { factorielle }

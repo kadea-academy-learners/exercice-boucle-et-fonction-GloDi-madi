@@ -15,14 +15,9 @@ function factorielle(n) {
     let result = 1;
     for (let i = 2; i <= n; i++) {
       result *= i;
-    }
-    return result;
-  }
-
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
   return 0;
-
 }
-console.log(factorielle(5));  
+
 // Ne pas modifier la ligne ci-dessous
 module.exports = { factorielle }

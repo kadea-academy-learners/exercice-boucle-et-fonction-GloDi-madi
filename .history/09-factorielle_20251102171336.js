@@ -12,17 +12,10 @@
 function factorielle(n) {
   // Exercice non implémenté : calculer la factorielle de n
   if (typeof n === 'number' && Number.isInteger(n) && n >= 0) {
-    let result = 1;
-    for (let i = 2; i <= n; i++) {
-      result *= i;
-    }
-    return result;
-  }
-
+    let result = 1; 
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
   return 0;
-
 }
-console.log(factorielle(5));  
+
 // Ne pas modifier la ligne ci-dessous
 module.exports = { factorielle }

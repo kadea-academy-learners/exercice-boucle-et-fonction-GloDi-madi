@@ -23,6 +23,6 @@ function factorielle(n) {
   return 0;
 
 }
-console.log(factorielle(5));  
+co
 // Ne pas modifier la ligne ci-dessous
 module.exports = { factorielle }
