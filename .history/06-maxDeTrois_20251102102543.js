@@ -12,19 +12,9 @@
 */
 function maxDeTrois(a, b, c) {
   // Exercice non implémenté : retourner le plus grand ou un message si égaux
-  if (typeof a === 'number' && typeof b === 'number' && typeof c === 'number') {
-    if (a === b && b === c) {
-      return "Les trois nombres sont égaux";
-    } else {
-      return Math.max(a, b, c);
-    }
-  }
   // Placeholder neutre : retourne null pour indiquer non-implémentation
   return null;
-
 }
-console.log(maxDeTrois(5, 10, 15));    // 15
-console.log(maxDeTrois(20, 15, 10));  // 20   
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { maxDeTrois };

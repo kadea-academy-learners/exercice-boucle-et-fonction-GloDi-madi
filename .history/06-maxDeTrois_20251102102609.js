@@ -23,8 +23,7 @@ function maxDeTrois(a, b, c) {
   return null;
 
 }
-console.log(maxDeTrois(5, 10, 15));    // 15
-console.log(maxDeTrois(20, 15, 10));  // 20   
+con
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { maxDeTrois };
