@@ -10,18 +10,10 @@
   Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
 */
 function somme(n) {
-  if (typeof n === 'number' && Number.isInteger(n) && n > 0) {
-    let total = 0;
-    for (let i = 1; i <= n; i++) {
-      total += i;
-    }
-    return total;
-  }
-
+  // Exercice non implémenté : retourner la somme de 1 à n
+  // Placeholder neutre : retourne 0 pour indiquer non-implémentation
   return 0;
 }
-console.log(somme(4)); 
-console.log(somme(-3));
 
 // Ne pas modifier la ligne ci-dessous
-module.exports = somme;
+module.exports = { somme }

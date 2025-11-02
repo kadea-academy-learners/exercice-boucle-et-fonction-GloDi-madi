@@ -20,8 +20,7 @@ function somme(n) {
 
   return 0;
 }
-console.log(somme(4)); 
-console.log(somme(-3));
+
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = somme;
