@@ -13,16 +13,9 @@
 function estImpair(n) {
   // Exercice non implémenté : vérifier si n est impair
   if (typeof n === 'number' && Number.isInteger(n)) {
-    return n % 2 !== 0;
-  }
   // Placeholder neutre : retourne null pour indiquer non-implémentation
   return null;
 }
-console.log(estImpair(3));     // true
-console.log(estImpair(8));     // false
-console.log(estImpair("Madi")); // null
-console.log(estImpair(3.5));   // null
-
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { estImpair };
