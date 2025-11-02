@@ -22,16 +22,7 @@ function max(a, b) {
     } else {
       return "Les deux nombres sont égaux";
     }
-  } else {
-    return null;
-  }
-
 }
-console.log(max(5, 10));    // 10
-console.log(max(20, 15));  // 20
-console.log(max(7, 7)); // "Les deux nombres sont égaux"
-console.log(max(5, "a")); // null
-
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { max }
