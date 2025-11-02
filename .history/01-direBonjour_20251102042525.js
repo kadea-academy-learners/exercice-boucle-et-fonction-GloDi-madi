@@ -19,4 +19,4 @@ function direBonjour() {
 }
 
 // Ne pas modifier la ligne ci-dessous
-direBonjour ();
+direBonjour 

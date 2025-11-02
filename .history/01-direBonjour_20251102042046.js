@@ -15,8 +15,7 @@ function direBonjour() {
   console.log("Bonjour le monde");
   // Placeholder neutre : ne fait rien et retourne undefined.
 
-
 }
 
 // Ne pas modifier la ligne ci-dessous
-direBonjour ();
+module.exports = { direBonjour }
