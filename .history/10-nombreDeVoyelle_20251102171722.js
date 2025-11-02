@@ -14,18 +14,9 @@ function nombreDeVoyelles(phrase) {
     const voyelles = 'aeiouyAEIOUY';
     let count = 0;
     for (let char of phrase) {
-      if (voyelles.includes(char)) {
-        count++;
-      }
-    }
-    return count;
-  }
-
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
   return 0;
-
 }
-console.log(nombreDeVoyelles("Bonjour Madi"));
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { nombreDeVoyelles }

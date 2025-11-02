@@ -25,7 +25,7 @@ function nombreDeVoyelles(phrase) {
   return 0;
 
 }
-console.log(nombreDeVoyelles("Bonjour Madi"));
+console.log();
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { nombreDeVoyelles }
