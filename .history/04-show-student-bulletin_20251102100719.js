@@ -42,15 +42,6 @@ function showStudentBulletin(eleves) {
     };
   });
 }
-const eleves = [
-  { nom: "Madi", notes: [15, 17, 18] },
-  { nom: "Glodi", notes: [12, 13, 11] },
-  { nom: "Yuhe", notes: [9, 8, 10] },
-  { nom: "Nathy", notes: [] }
-];
-
-console.log(showStudentBulletin(eleves));
-
 
 
 module.exports = {
