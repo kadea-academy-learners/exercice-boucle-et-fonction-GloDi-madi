@@ -11,15 +11,10 @@
     sans lever d'exception. L'étudiant doit remplacer la fonction par son implémentation.
   */
   function compteARebours() {
-function compteARebours() {
-  for (let i = 10; i >= 1; i--) {
-    console.log(i);
-  }
-}
-
-
-  }
   
+    // Placeholder neutre : ne fait rien
+
+  }
 
   // Ne pas modifier la ligne ci-dessous
   module.exports = { compteARebours }
