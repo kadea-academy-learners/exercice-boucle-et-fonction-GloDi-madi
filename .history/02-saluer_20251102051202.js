@@ -19,7 +19,7 @@ function saluer(nom) {
   // Placeholder neutre : ne fait rien et retourne undefined.
 
 }
-console.log(saluer("madi")); // Affiche "Bonjour, Alice"
+cob
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { saluer }
